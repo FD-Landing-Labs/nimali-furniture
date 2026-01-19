@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip:*)",
+      "Skill(landing-page-architect)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "WebFetch(domain:atcooray.lk)",
+      "Bash(curl:*)",
+      "Bash(test:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(timeout 3 bash:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebSearch",
+      "Bash(npm i:*)",
+      "Skill(frontend-design)"
+    ]
+  }
+}
