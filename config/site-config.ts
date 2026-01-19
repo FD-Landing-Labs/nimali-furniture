@@ -8,7 +8,7 @@ export const siteConfig = {
   // BRAND & BASIC INFO
   // ============================================
   brand: {
-    name: "Koala",
+    name: "Nimali",
     tagline: "Timeless Comfort & Endless Luxury",
     description: "Premium furniture design and room decorating agency",
   },
@@ -85,7 +85,7 @@ export const siteConfig = {
     eyebrow: "About us",
     title: "Where Spaces Inspire, and Design Comes Alive",
     paragraphs: [
-      "At Koala, we believe that every space has a story to tell. As a premier furniture design and room decorating agency.",
+      "At Nimali, we believe that every space has a story to tell. As a premier furniture design and room decorating agency.",
       "Our expert team blends timeless craftsmanship with innovative designs, ensuring each piece and layout reflects your unique taste and lifestyle. Whether you're looking to reimagine your living room.",
     ],
     button: {
@@ -104,7 +104,7 @@ export const siteConfig = {
   showcase: {
     eyebrow: "Showcases",
     title: "From Vision to\nReality",
-    description: "Transforming spaces with style, through Koala's exquisite furniture design and room decoration expertise.",
+    description: "Transforming spaces with style, through Nimali's exquisite furniture design and room decoration expertise.",
     images: [
       { src: "/showcase6.jpeg", alt: "Dark Modern furniture" },
       { src: "/showcase5.jpeg", alt: "Minimal luxury sofa" },
@@ -153,56 +153,56 @@ export const siteConfig = {
         id: 1,
         name: "Sarah Mitchell",
         title: "Homeowner",
-        quote: "Koala completely transformed our living room into a warm, inviting space. Their custom furniture pieces are not only beautiful but incredibly comfortable. We couldn't be happier with the result.",
+        quote: "Nimali completely transformed our living room into a warm, inviting space. Their custom furniture pieces are not only beautiful but incredibly comfortable. We couldn't be happier with the result.",
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
       },
       {
         id: 2,
         name: "James Anderson",
         title: "Boutique Hotel Owner",
-        quote: "The bespoke furniture and room designs Koala created for our hotel have elevated our guest experience tremendously. Every piece tells a story and adds character to our spaces.",
+        quote: "The bespoke furniture and room designs Nimali created for our hotel have elevated our guest experience tremendously. Every piece tells a story and adds character to our spaces.",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
       },
       {
         id: 3,
         name: "Emily Chen",
         title: "Interior Designer",
-        quote: "Working with Koala has been a dream. Their attention to detail and understanding of both aesthetics and functionality is exceptional. They bring ideas to life beautifully.",
+        quote: "Working with Nimali has been a dream. Their attention to detail and understanding of both aesthetics and functionality is exceptional. They bring ideas to life beautifully.",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
       },
       {
         id: 4,
         name: "Michael Roberts",
         title: "Restaurant Owner",
-        quote: "The dining furniture and ambiance Koala designed for our restaurant has become the talk of the town. Guests specifically mention how comfortable and stylish the space feels.",
+        quote: "The dining furniture and ambiance Nimali designed for our restaurant has become the talk of the town. Guests specifically mention how comfortable and stylish the space feels.",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
       },
       {
         id: 5,
         name: "David Martinez",
         title: "Property Developer",
-        quote: "Koala furnished multiple luxury apartments for our development. Their timeless designs and quality craftsmanship have significantly enhanced the appeal and value of our properties.",
+        quote: "Nimali furnished multiple luxury apartments for our development. Their timeless designs and quality craftsmanship have significantly enhanced the appeal and value of our properties.",
         image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       },
       {
         id: 6,
         name: "Rachel Thompson",
         title: "Homeowner",
-        quote: "From concept to completion, Koala made our bedroom redesign effortless. The custom headboard and wardrobe are stunning pieces that we'll treasure for years to come.",
+        quote: "From concept to completion, Nimali made our bedroom redesign effortless. The custom headboard and wardrobe are stunning pieces that we'll treasure for years to come.",
         image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
       },
       {
         id: 7,
         name: "Thomas Wilson",
         title: "Office Manager",
-        quote: "Koala transformed our corporate office into a modern, productive workspace. The ergonomic furniture and thoughtful layout have improved both aesthetics and employee satisfaction.",
+        quote: "Nimali transformed our corporate office into a modern, productive workspace. The ergonomic furniture and thoughtful layout have improved both aesthetics and employee satisfaction.",
         image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
       },
       {
         id: 8,
         name: "Lisa Patterson",
         title: "Café Owner",
-        quote: "The cozy, welcoming atmosphere Koala created with their furniture selection has made our café a favorite neighborhood spot. Their design perfectly captures our brand's essence.",
+        quote: "The cozy, welcoming atmosphere Nimali created with their furniture selection has made our café a favorite neighborhood spot. Their design perfectly captures our brand's essence.",
         image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop",
       },
     ],
@@ -213,7 +213,7 @@ export const siteConfig = {
   // ============================================
   cta: {
     backgroundImage: "/cta.jpeg",
-    text: "Ready to reimagine your space? Connect with us at Koala to bring your vision to life with our expertise in design and decoration.",
+    text: "Ready to reimagine your space? Connect with us at Nimali to bring your vision to life with our expertise in design and decoration.",
     button: {
       label: "Get in Touch",
       href: "#contact",
@@ -230,17 +230,17 @@ export const siteConfig = {
     items: [
       {
         id: 1,
-        question: "What is Koala and how does it work?",
-        answer: "Koala is a premium furniture design and room decorating agency that specializes in creating timeless, luxurious spaces. We work closely with you to understand your vision, then design and craft bespoke furniture pieces and complete room layouts that perfectly match your style and needs.",
+        question: "What is Nimali and how does it work?",
+        answer: "Nimali is a premium furniture design and room decorating agency that specializes in creating timeless, luxurious spaces. We work closely with you to understand your vision, then design and craft bespoke furniture pieces and complete room layouts that perfectly match your style and needs.",
       },
       {
         id: 2,
-        question: "How can I start a project with Koala?",
-        answer: "Starting a project with Koala is easy! Simply reach out to us through our contact page or email. We'll schedule an initial consultation to discuss your vision, preferences, and budget. From there, we'll create a tailored design proposal and guide you through every step of the process.",
+        question: "How can I start a project with Nimali?",
+        answer: "Starting a project with Nimali is easy! Simply reach out to us through our contact page or email. We'll schedule an initial consultation to discuss your vision, preferences, and budget. From there, we'll create a tailored design proposal and guide you through every step of the process.",
       },
       {
         id: 3,
-        question: "What types of projects does Koala take on?",
+        question: "What types of projects does Nimali take on?",
         answer: "We handle a wide range of projects including residential spaces (living rooms, bedrooms, dining areas), commercial spaces (offices, restaurants, hotels), and custom furniture pieces. Whether you need a single statement piece or a complete room transformation, we're here to help.",
       },
       {
