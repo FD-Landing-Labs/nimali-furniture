@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { siteConfig } from "@/config/site-config"
+import { motion } from "framer-motion";
+import { siteConfig } from "@/config/site-config";
 
 export function Footer() {
   return (
     <footer
       className="relative py-8 md:py-10 lg:py-12 xl:py-14"
       style={{
-        backgroundColor: "rgb(141, 73, 58)",
+        backgroundColor: "rgb(141, 73, 58)"
       }}
     >
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -25,20 +25,20 @@ export function Footer() {
             style={{
               fontFamily: siteConfig.fonts.primary,
               fontWeight: 400,
-              color: siteConfig.colors.cream,
+              color: siteConfig.colors.cream
             }}
           >
             {siteConfig.brand.name}
           </h2>
         </motion.div>
 
-        {/* Footer Links - Three Columns */}
+        {/* Footer Links - Two Columns */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-8 lg:gap-12 mb-8 md:mb-10 lg:mb-12 max-w-4xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 lg:gap-12 mb-8 md:mb-10 lg:mb-12 max-w-4xl mx-auto"
         >
           {/* Sitemap Column */}
           <div className="text-center">
@@ -47,7 +47,7 @@ export function Footer() {
               style={{
                 fontFamily: siteConfig.fonts.primary,
                 fontWeight: 400,
-                color: "rgba(248, 237, 227, 0.7)",
+                color: "rgba(248, 237, 227, 0.7)"
               }}
             >
               Sitemap
@@ -61,13 +61,13 @@ export function Footer() {
                     style={{
                       fontFamily: siteConfig.fonts.primary,
                       fontWeight: 400,
-                      color: siteConfig.colors.cream,
+                      color: siteConfig.colors.cream
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "rgba(248, 237, 227, 0.7)"
+                      e.currentTarget.style.color = "rgba(248, 237, 227, 0.7)";
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.color = siteConfig.colors.cream
+                      e.currentTarget.style.color = siteConfig.colors.cream;
                     }}
                   >
                     {item.label}
@@ -84,7 +84,7 @@ export function Footer() {
               style={{
                 fontFamily: siteConfig.fonts.primary,
                 fontWeight: 400,
-                color: "rgba(248, 237, 227, 0.7)",
+                color: "rgba(248, 237, 227, 0.7)"
               }}
             >
               Socials
@@ -98,50 +98,13 @@ export function Footer() {
                     style={{
                       fontFamily: siteConfig.fonts.primary,
                       fontWeight: 400,
-                      color: siteConfig.colors.cream,
+                      color: siteConfig.colors.cream
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "rgba(248, 237, 227, 0.7)"
+                      e.currentTarget.style.color = "rgba(248, 237, 227, 0.7)";
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.color = siteConfig.colors.cream
-                    }}
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* More Column */}
-          <div className="text-center">
-            <h3
-              className="mb-4 md:mb-5 text-[0.9375rem] md:text-base"
-              style={{
-                fontFamily: siteConfig.fonts.primary,
-                fontWeight: 400,
-                color: "rgba(248, 237, 227, 0.7)",
-              }}
-            >
-              More
-            </h3>
-            <ul className="space-y-2.5 md:space-y-3">
-              {siteConfig.footer.more.map((item) => (
-                <li key={item.label}>
-                  <a
-                    href={item.href}
-                    className="transition-colors text-[1.125rem] md:text-[1.25rem]"
-                    style={{
-                      fontFamily: siteConfig.fonts.primary,
-                      fontWeight: 400,
-                      color: siteConfig.colors.cream,
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "rgba(248, 237, 227, 0.7)"
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = siteConfig.colors.cream
+                      e.currentTarget.style.color = siteConfig.colors.cream;
                     }}
                   >
                     {item.label}
@@ -156,7 +119,7 @@ export function Footer() {
         <div
           className="w-full h-px mb-4 md:mb-5 lg:mb-6"
           style={{
-            backgroundColor: "rgba(248, 237, 227, 0.3)",
+            backgroundColor: "rgba(248, 237, 227, 0.3)"
           }}
         />
 
@@ -173,7 +136,7 @@ export function Footer() {
             style={{
               fontFamily: siteConfig.fonts.primary,
               fontWeight: 400,
-              color: "rgba(248, 237, 227, 0.8)",
+              color: "rgba(248, 237, 227, 0.8)"
             }}
           >
             {siteConfig.footer.copyright}
@@ -181,5 +144,5 @@ export function Footer() {
         </motion.div>
       </div>
     </footer>
-  )
+  );
 }
